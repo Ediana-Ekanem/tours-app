@@ -22,7 +22,7 @@ const Tour = ({ id, image, name, info, price, removeTour }) => {
         <p className="text-[#7d7d97]">
           {readMore ? info : `${info.substring(0, 200)}...`}
           <button
-            className="text-blue-400 ms-2 "
+            className="text-[#10b981] text-sm font-semibold ms-2 "
             onClick={() => setReadMore(!readMore)}
           >
             {readMore ? "Show Less" : " Read More"}
